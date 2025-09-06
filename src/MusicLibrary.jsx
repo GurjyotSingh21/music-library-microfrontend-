@@ -81,8 +81,8 @@ const MusicLibrary = ({ role }) => {
     setSongs(songs.filter((song) => song.id !== id));
   };
   return (
-    <div className="items-center min-h-screen justify-center bg-black text-white">
-    <div className="bg-neutral-900 w-full max-w-4xl rounded-2xl shadow-2xl p-10 w-full max-w-md border border-green-500">
+    <div className="flex items-center justify-center min-h-screen bg-black text-white px-4">
+      <div className="w-full max-w-4xl mx-auto p-6 md:p-10 shadow-md rounded-2xl border border-green-500 bg-neutral-900">
     <div className="max-w-3xl mx-auto p-4 bg-grey-800 shadow-md rounded-lg">
       <h2 className="text-3xl font-bold text-green-400 mb-4">Music Library</h2>
 
