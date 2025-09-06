@@ -21,5 +21,6 @@ export default defineConfig({
     target: 'esnext',
     cssCodeSplit: false,
     assetsDir: ".",
+    modulePreload: false,
   },
 })
