@@ -86,12 +86,12 @@ const MusicLibrary = ({ role }) => {
     <div className="max-w-3xl mx-auto p-4 bg-grey-800 shadow-md rounded-lg">
       <h2 className="text-3xl font-bold text-green-400 mb-4">Music Library</h2>
 
-      <div className="flex flex-col md:flex-row md:items-center gap-3 mb-6">
+      <div className="flex flex-col md:flex-row md:items-center gap-3 mb-6 text-white">
         <input
           type="text"
           placeholder="Search by title, artist, or album"
           aria-label="Search songs"
-          className="flex-1 p-2 border rounded-md focus:ring-2 focus:ring-blue-500"
+          className="flex-1 p-2 border border-white rounded-md focus:ring-2 focus:ring-blue-500"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
