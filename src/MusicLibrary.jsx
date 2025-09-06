@@ -84,7 +84,7 @@ const MusicLibrary = ({ role }) => {
   return (
   <div className="flex items-center justify-center min-h-screen bg-black text-white px-4">
     <div className="bg-neutral-900 w-full max-w-4xl rounded-2xl shadow-2xl p-6 md:p-10 border border-green-500">
-      <div className="mx-auto bg-gray-800 shadow-md rounded-lg p-4 md:p-6">
+      <div className="mx-auto shadow-md rounded-lg p-4 md:p-6">
         <h2 className="text-2xl md:text-3xl font-bold text-green-400 mb-6 text-center md:text-left">
           Music Library
         </h2>
